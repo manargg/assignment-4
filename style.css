@@ -1,25 +1,27 @@
 
 body{
+    padding: 0;
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
-    
 }
 
 
 /*--------------the featured-properties section---------*/
-.sec{
-    width: 100%;
-}
 
+.sec{
+margin: auto;
+
+}
 .container{
-    width: 80%;
-    height: auto;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
 }
 .container h2{
     text-transform: capitalize;
     text-align: center;
+   
 }
 .container p{
     text-align: center;
@@ -28,10 +30,13 @@ body{
 }
 
 .cards-list{
+    padding-left: 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
     margin-top: 80px;
+   
+    
 }
 .cards-list li{
     list-style: none;
@@ -42,7 +47,7 @@ body{
     overflow: hidden;
     background-color: #fff;
     border: 1px solid rgb(240, 237, 237);
-   
+    margin: auto;
    
 }
 
@@ -114,17 +119,45 @@ margin: 100px auto;
     color: hsl(215, 20%, 65%);
     line-height: 1.5;
 }
+.query-btn{
+    color: #fff;
+    background-color: hsl(142, 76%, 36%);
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.query-btn:hover{
+    cursor: pointer;
+    background-color: hsl(142, 75%, 26%);
+}
 /*------------subscribe section------------------*/
 .subscribe{
-    width: 80%;
+    width: 90%;
+    position: relative;
     margin: auto;
     height: 150px;
-    margin-bottom: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.news-container{
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    margin: auto;
+    height: 150px;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0px 15px 15px rgba(123, 122, 122, 0.3);
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(123, 122, 122, 0.3);
 }
 .subscribe p{
     color: hsl(215, 20%, 65%);
@@ -141,20 +174,140 @@ form{
     outline: none;
 }
 .btn-form{
-position: absolute;
-right: 1px;
-top: 1px;
-width: 120px;
-padding:15px ;
-border-radius: 50px;
-border: none;
-background-color: hsl(142, 76%, 36%);
-color: #fff;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 120px;
+    padding:15px ;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(142, 76%, 36%);
+    color: #fff;
 }
 .btn-form:hover{
     cursor: pointer;
     background-color: hsl(142, 75%, 26%);
 }
+/*------------footer section------------------*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items:center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    height: auto;
+    position: relative;
+    padding: 150px 250px 80px;
+    overflow: hidden;
+}
+.footer i{
+    padding-right: 5px;
+}
+.footer li{
+    list-style: none;
+    padding-top: 10px;
+  
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer ul{
+    padding-left: 0;
+}
+
+.footer p, li{
+    text-transform: capitalize;
+}
+.logo-footer{
+    margin-bottom:50px;
+}
+.logo-footer a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+
+} 
+.logo-footer p{
+    line-height: 2;
+}
+
+.useful-links{
+    margin-bottom: 30px;
+}
+
+.contact-details a:first-child{
+    font-size: 15px;
+    color: hsl(142, 76%, 36%);
+    padding-left: 30px;
+  
+} 
+
+.contact-details i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.contact-details li:first-child{
+    display: flex;
+    line-height: 1.5;
+}
+
+.contact-details  {
+    margin-top: 70px;
+    
+}
+.contact-details li{
+    padding-bottom: 15px;
+}
+/*-------------footer-bottom-----------------------*/
+.footer-bottom{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: #fff;
+    border-top: 1px solid rgb(43, 43, 69);
+    overflow: hidden;
+   
+}
+
+.footer-bottom-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+.footer-bottom-container li{
+    list-style: none;
+    
+}
+.footer-bottom-container i{
+    font-size: 20px;
+    padding: 2px;
+    border: 1px solid rgb(43, 43, 69);
+    border-radius: 5px;
+}
+
+.footer-bottom-container li:hover{
+   background-color: hsl(142, 76%, 36%);
+}
+.footer-bottom-container ul{
+display: flex;
+gap: 5px;
+padding-left: 0;
+}
+
+
+
+
+
+
+
 
 
 
@@ -180,20 +333,25 @@ color: #fff;
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-left: 0;
+
 }
-.container{
-    width: 100%;
-    margin: 0;
-  
+.card{
+    width: 90%;
+   
 }
+
 .container p br{
     display: none;
 }
 .container p{
     padding: 0 20px;
 }
+
 /*--------------query section--------------*/
+.query{
+    margin-bottom: 50px;
+}
 .query p br{
     display: none;
 }
@@ -203,9 +361,17 @@ color: #fff;
 /*--------------subscribe section-------------*/
 .subscribe{
     width: 90%;
-    height: 300px;
-    flex-direction: column;
+    height: 200px;
+    margin: auto;
 }
+.news-container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .Newsletter{
     text-align: center;
     
@@ -219,8 +385,19 @@ color: #fff;
 }
 .form input{
     width: 250px;
-
-
-
+}
+/*--------------footer-section-------------*/
+.footer{
+    padding-top: 250px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items:flex-start ;
+    align-items: center;
+}
+.footer div{
+    width: 400px;
+    margin-top: 0;
+}
 
 }
