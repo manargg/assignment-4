@@ -198,7 +198,7 @@ form{
     color: #fff;
     height: auto;
     position: relative;
-    padding: 150px 250px 80px;
+    padding: 80px 300px;
     overflow: hidden;
 }
 .footer i{
@@ -221,9 +221,7 @@ form{
 .footer p, li{
     text-transform: capitalize;
 }
-.logo-footer{
-    margin-bottom:50px;
-}
+
 .logo-footer a{
     text-decoration: none;
     font-size: 25px;
@@ -279,7 +277,6 @@ form{
     flex-wrap: wrap;
     margin: 10px auto;
     text-align: center;
-    
 }
 
 .footer-bottom-container li{
@@ -293,7 +290,7 @@ form{
     border-radius: 5px;
 }
 
-.footer-bottom-container li:hover{
+.footer-bottom-container i:hover{
    background-color: hsl(142, 76%, 36%);
 }
 .footer-bottom-container ul{
@@ -301,14 +298,6 @@ display: flex;
 gap: 5px;
 padding-left: 0;
 }
-
-
-
-
-
-
-
-
 
 
 
