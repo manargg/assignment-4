@@ -807,7 +807,7 @@ form{
     border: 1px solid gray;
     outline: none;
 }
-.btn-form{
+.btn-subscribe{
     position: absolute;
     right: 1px;
     top: 1px;
@@ -818,7 +818,8 @@ form{
     background-color: hsl(142, 76%, 36%);
     color: #fff;
 }
-.btn-form:hover{
+
+.btn-subscribe:hover{
     cursor: pointer;
     background-color: hsl(142, 75%, 26%);
 }
@@ -928,9 +929,9 @@ form{
    background-color: hsl(142, 76%, 36%);
 }
 .footer-bottom-container ul{
-display: flex;
-gap: 5px;
-padding-left: 0;
+    display: flex;
+    gap: 5px;
+    padding-left: 0;
  }
 
 
