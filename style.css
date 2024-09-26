@@ -50,7 +50,7 @@
 }
 
 .links a:hover {
-     color: red;
+     color:  hsl(122, 39%, 49%);
 }
   .button1{ display: flex;
     width: 30%;
