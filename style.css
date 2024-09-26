@@ -100,13 +100,8 @@ height: auto;
       width: 100%;
     height: 800px;
     background-color: white;
-<<<<<<< HEAD
  }
-=======
-    border: 1px solid black;
-}
->>>>>>> b3288c0c2daf9a0f1bb8e66580db18a9a7e53812
-
+ 
   .photobackground{
  background-image: url(images/hero-bg.jpg);
  background-position: center;
