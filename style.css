@@ -191,7 +191,7 @@ height: auto;
 
 .btn-form:hover {
     background-color: hsl(122, 39%, 49%);
-    color: rgb(120, 172, 120);
+    color: black;
     border-radius: 3px;
 }
 
