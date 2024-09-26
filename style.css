@@ -828,7 +828,7 @@ form{
     color: #fff;
     height: auto;
     position: relative;
-    padding: 80px 300px;
+    padding: 80px 150px;
     overflow: hidden;
 }
 .footer i{
@@ -856,10 +856,15 @@ form{
     text-decoration: none;
     font-size: 25px;
     color: #fff;
-
 } 
+
+.logo-footer{
+    margin-bottom: 15px;
+}
 .logo-footer p{
     line-height: 2;
+    font-size: 0.9em;
+    margin-top: 20px;
 }
 
 .useful-links{
@@ -883,7 +888,7 @@ form{
 }
 
 .contact-details  {
-    margin-top: 70px;
+    margin-top: 80px;
     
 }
 .contact-details li{
@@ -939,6 +944,10 @@ form{
     
     .container{
         width: 60%;
+    }
+    .footer{
+        padding: 80px 280px;
+
     }
 }
 /*---------------------------------
@@ -1015,6 +1024,6 @@ form{
 }
 .footer div{
     width: 400px;
-    margin-top: 0;
+    margin-top: 25px;
 }
 }
