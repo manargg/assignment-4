@@ -807,19 +807,19 @@ form{
     border: 1px solid gray;
     outline: none;
 }
-.btn-form{
+.btn-subscribe{
     position: absolute;
-    right: -19px;
+    right: 1px;
     top: 1px;
     width: 120px;
-    padding: 20px;
+    padding:15px ;
     border-radius: 50px;
     border: none;
     background-color: hsl(142, 76%, 36%);
     color: #fff;
 }
 
-.btn-form:hover{
+.btn-subscribe:hover{
     cursor: pointer;
     background-color: hsl(142, 75%, 26%);
 }
