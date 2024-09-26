@@ -53,7 +53,7 @@
      color: red;
 }
   .button1{ display: flex;
- width: 30%;
+    width: 30%;
     height: 40px;
     margin-right: 100px;
  
@@ -936,42 +936,6 @@ padding-left: 0;
 
 
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 /*---------------------------
          for big screens
 -----------------------------*/
@@ -1059,4 +1023,3 @@ padding-left: 0;
 }
 
 }
->>>>>>> af8cdee178cf66132b0a76a13cb890cb6a14145f
